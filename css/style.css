@@ -1,0 +1,93 @@
+.presentation-contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .bloc-1 {
+    width: 50%;
+    height: 100px;
+    }
+    @media screen and (max-width: 800px) {
+    .bloc-1 {
+    width: 100%;
+    }
+    }
+.presentation-contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .bloc-1 {
+    width: 50%;
+    height: 100px;
+    }
+    @media screen and (max-width: 1100px) {
+    .bloc-1 {
+    width: 100%;
+    }
+    }
+        
+
+body{
+    background: linear-gradient( #1D45BD, #FFFFFF);
+    background-repeat: no-repeat;
+    max-height: 100% ;
+}
+h1{
+    text-align: center; font-size:500%;
+    color:rgb(255, 255, 255);
+    margin: 0%
+}
+div{
+    display:flex;
+    color:rgb(255, 255, 255);
+    justify-content: space-around;
+    font-size: 400%;
+    font-family: "abc";
+}
+
+@font-face {
+    font-family: "abc";
+    src: url(bignoodletitling/big_noodle_titling.ttf);
+}
+
+h1 {
+    font-family: "abc";
+}
+h2{
+    font-family: "abc";
+    font-size: 300%;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+nav{
+    margin: 0% ;
+    color:white
+}
+.presentation{
+    display:flex;
+    flex-direction: column;
+    font-size: 50%;
+    margin-left: 2%;
+    margin-inline: 5%;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+#character2{
+    width: 20%;
+    height: 30%
+}
+
+#character1{
+    width: 20%;
+    height: 30%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.multiple{
+    color: #000000;
+}
+#logo{
+    width: 5%;
+    height: 10%;
+}
